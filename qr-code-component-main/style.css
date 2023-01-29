@@ -1,26 +1,44 @@
-* {
-    margin: 0;
-    height: 0;
-    box-sizing: border-box;
-    background-color: hsl(220, 15%, 55%);
+body {
+  background-color: hsl(212, 45%, 89%)
 }
 
 .card {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  img {
-    border-radius: 5px 5px 0 0;
-  }
-  
-  .container {
-    padding: 2px 16px;
-  }
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  font-family: "Outfit",sans-serif;
+  font-size: 15px;
+  height: 50%;
+  margin-top: 10%;
+
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-wrapper {
+  display: inline-block;
+  padding: 10px;
+}
+
+.text-wrapper p {
+  color: hsl(220, 15%, 55%);
+  font-size: 12px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
